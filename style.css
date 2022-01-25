@@ -68,7 +68,7 @@ h5 {
 .grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .site-nav {
@@ -137,7 +137,8 @@ h5 {
 }
 
 #education {
-    padding: 30px 20px; 
+    padding: 30px 20px;
+    text-align: center;
 }
 
 #education h3 {
@@ -145,19 +146,17 @@ h5 {
     margin-bottom: 40px;
 }
 
-#education ul li{
-    grid-column: span 4;
+#education ul li {
+    grid-column: span 8;
     padding: 20px 0;
 }
 
-
-#education ul li img{
+#education ul li img {
     height: 3.7em;
     width: 4em;
-
 }
 
-#education ul li h4{
+#education ul li h4 {
     margin-bottom: 5px;
 }
 
@@ -231,6 +230,15 @@ footer li a:hover{
     .projects a * {
         max-width: 100%;
         padding: 20px 0;
+    }
+
+    #education ul li {
+        grid-column: span 4;
+        padding: 20px 0;
+    }
+
+    #education ul li:last-child {
+        grid-column: 3/7;
     }
 
 
