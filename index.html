@@ -7,54 +7,59 @@
     <title>Csilla Furedi</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/8aa5b4185a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="site-nav grid">
-        <h1>CsF</h1>
-        <ul>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-        </ul>
-    </nav>
-
-    <section id="bio" class="grid">
-        <div class="text">
-            <h2>Hi, I'm <br><span class="big"><span class="color">Csilla</span> Furedi</span></h2>
-            <p>A highly skilled, self-driven professional, self-taught (or rather YouTube/Udemy and Google taught) web developer & desginer.</p>
-            <a href="#portfolio" class="button">View my work</a>
-        </div>
-        <div class="image">
-            <img src="images/woman-svgrepo-com (1).svg" alt="">
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <h3>Some of my <span class="color">projects</span></h3>
-        <div class="projects grid">
-            <a href=https://csillafuredi.github.io/shortstory/index.html target="_blank">
-                <i class="fas fa-code fa-6x"></i>
-                <h4>Coding</h4>
-            </a>
-            <a href=https://www.figma.com/community/file/1067241633763261086/short-story-website target="_blank">
-                <i class="fab fa-figma fa-6x"></i>
-                <h4>Figma</h4>
-            </a>
-            <a href=#>
-                <i class="fas fa-chalkboard fa-6x"></i>
-                <h4>Blank</h4>
-            </a>
-        </div>
-    </section>
-
-    <section id="education">
-        <h3 class="color">Education</h3>
-            <ul class="grid">
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#about"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#experience"><i class="fa-solid fa-building"></i></a></li>
+                <li><a href="#skills"><i class="fa-solid fa-pen-ruler"></i></a></li>
+                <li><a href="#education"><i class="fa-solid fa-school"></i></a></li>
+                <li><a href="#other"><i class="fa-solid fa-user-plus"></i></a></li>
+                <li><a href="#contact"><i class="fa-solid fa-paper-plane"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="bio">
+            <h2>Hi! I'm Csilla Furedi</h2>
+            <h6>#bio, #introduction</h6>
+            <p>A highly skilled, self-driven professional, self-taught web developer & desginer with an unwavering passion for Japanese and Korean culture & language, and an enormus amount of creativity.</p>
+            <a href="#about" class="btn">Read More</a>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <h6>#about, #longstoryshort</h6>
+            <p>I hold an MA in Japanese Studies, which basically means that I can speak Japanese, and can work together with Japanese people fairy well, as I have a broad knowledge of the Japanese culture, traditional or popular, society, language etc.</p>
+            <p>That's how I started working at a small, family-owned Japanese business, where soon enough I became the assistant manager, then the sole in-house graphic designer, digital marketer and web designer.</p>
+            <p>With the very basics of HTML and CSS, which I learnt at a short course at the London Academy of IT, I started building the company's website. It took me around 1 month to finish this project, with long-long hours spent on W3Schools and StackOverflow to figure out how to make my code work, and on creating all the visual assets I wanted to feature on the site.</p>
+            <p>And I enjoyed every second of it, so I deep dived into web design & development... </p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <h6>#graphicdesign, #webdesign, #digitalmarketing, #administration</h6>
+            <h3>Graphic Design</h3>
+            <h3>Web design</h3>
+            <h3>Accounts, reports, administration</h3>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <h6>#html, #css, #javascript, #photoshop, #illustrator</h6>
+            <h3>Adobe Creative Suite</h3>
+            <h3>HTML, CSS, javaScript</h3>
+            <h3>Figma, Canva</h3>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <h6>#japanese, #itsupport, #coding, #development, #design</h6>
+            <ul>
                 <li>
-                    <i class="fas fa-graduation-cap fa-4x"></i>
+                    <i class="fas fa-graduation-cap fa-3x"></i>
                     <h4>BA in Oriental Languages and Cultures - Japanese Studies (Graded Excellent)</h4>
                     <h5>Karoli Gaspar University, Hungary</h5>
                     <p>Introduction to the various cultures of East Asia, specialized study of the language, culture, history and society of Japan. Specialization in Translation and Advanced Translation.</p>
@@ -66,36 +71,67 @@
                     <p>Intensive course to improve Japanese language proficiency with supplementary study about Japan and Japanese culture, research in Japanese sociolinguistics.</p>
                 </li>
                 <li>
-                    <i class="fas fa-graduation-cap fa-4x"></i>
+                    <i class="fas fa-graduation-cap fa-3x"></i>
                     <h4>MA in Japanese Studies (with distinction)</h4>
                     <h5>Karoli Gaspar University, Hungary</h5>
                     <p>Intensive study of the Japanese language, linguistics and society. Specialization in Japanese linguistics.</p>
                 </li>
                 <li>
-                    <i class="fab fa-google fa-4x"></i>
+                    <i class="fab fa-google fa-3x"></i>
                     <h4>Google IT Support Specialization <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/AET3N6QRPDNR" target="_blank"><i class="fas fa-external-link-alt"></i></a></h4>
                     <h5>Coursera</h5>
                     <p>Five courses developed by Google in troubleshooting and customer service, networking, operating systems, system administration, and security.</p>
                 </li>
                 <li>
-                    <i class="fas fa-code fa-4x"></i>
+                    <i class="fas fa-code fa-3x"></i>
                     <h4>Web development & design</h4>
-                    <h5>The Internet</h5>
-                    <p>Learnt coding through crash courses, bootcamps and other online materials; HTML, CSS, JavaScript.</p>
+                    <h5>Online</h5>
+                    <p>Learnt HTML, CSS and javaScript through online courses, bootcamps and other  materials.</p>
                 </li>
             </ul>
-    </section>
-
+        </section>
+        <section id="other">
+            <h2>Other Skills & Interests</h2>
+            <h6>#whaticando, #whatilike, #thesmallprint</h6>
+            <h3>IT Skills</h3>
+            <h3>Languages</h3>
+            <h4>Hungarian</h4>
+            <p>Native</p>
+            <h4>English</h4>
+            <p>Full working proficiency</p>
+            <h4>Japanese</h4>
+            <p>Full working proficiency</p>
+            <h4>Korean</h4>
+            <p>Pre-intermediate</p>
+            <h3>Hobbies and Interests</h3>
+            
+        </section>
+    </main>
     <footer>
-        <div class="grid">
-            <p class="copyright">Copyright 2022 Csilla Furedi</p>
+        <section id="contact">
             <ul class="social">
                 <li><a href="mailto:csillafueredi@gmail.com"><i class="far fa-envelope fa-3x"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/csilla-furedi-3771b8210/"target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
                 <li><a href="https://github.com/csillafuredi"target="_blank"    ><i class="fab fa-github fa-3x"></i></a></li>
             </ul>
-        </div>
+        </section>
     </footer>
 
+    <script>
+
+    $('#navbar a, .btn').on('click', function(e){
+        if(this.hash !== ''){
+            e.preventDefault();
+            const hash = this.hash;
+            $('html, body').animate(
+                {
+                    scrollTop: $(hash).offset().top-100,
+                },
+            800
+            );
+        }
+    });
+
+    </script>
+
 </body>
-</html>
